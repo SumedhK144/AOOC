@@ -24,7 +24,7 @@ public class Stack{
     void push(){
         if(isStackFull()){
             System.out.println("Stack is Full");
-            System.exit(-1);
+            return;
         }
         System.out.print("Enter number for PUSH(): ");
         element = scanner.nextInt();
@@ -34,9 +34,9 @@ public class Stack{
     int pop(){
         if(isStackEmpty()){
             System.out.println("Stack is Empty");
-            System.exit(-1);
-        }
-        return arr[top--];
+            return 0;
+        }else
+            return arr[top--];
     }
 
     void display(){
