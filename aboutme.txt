@@ -29,3 +29,24 @@ EXPERIMENT NO 3:
         b.​ rectangle and triangle inherits shape class. Calculate area of rectangle and triangle.
     4.​ Write a program to perform Multilevel Inheritance
     [STUDENT]Roll no -> [TEST]Sub1, sub2 -> [RESULT] display result.
+
+
+EXPERIMENT NO 4:
+    1.​ Stack Operations using Interface: Create an interface Stack with a variable size and
+        abstract methods push(), pop(), display(), overflow(), and underflow(). Implement a
+        subclass IntegerStack that implements the Stack interface. Create a test class to check the
+        working of all methods in the IntegerStack class.
+    2.​ Shape Interface with Rectangle and Triangle: Implement the following:
+        a.​ Create an interface Shape with an abstract method area().
+        b.​ Create two classes, Rectangle and Triangle, that implement the Shape interface.
+        c.​ Calculate and display the area of both Rectangle and Triangle.
+    3.​ Student Exam Results Using Inheritance and Interface in: Implement the following
+        hierarchy:
+        a.​ Create a class Student with a variable rollNo and methods getRollNo() and
+        setRollNo().
+        b.​ Create a class Test that inherits Student and has variables sub1 and sub2 with
+        methods getMarks() and setMarks().
+        c.​ Create an interface Sports with a variable sMarks and a method set().
+        d.​ Create a class Result that inherits Test and implements the Sports interface. It
+        should display the marks.
+        e.​ Demonstrate the functionality of these classes in a test application.
