@@ -50,3 +50,15 @@ EXPERIMENT NO 4:
         d.​ Create a class Result that inherits Test and implements the Sports interface. It
         should display the marks.
         e.​ Demonstrate the functionality of these classes in a test application.
+
+EXPERIMENT NO 5:
+    1.​ Implement a package LibraryManagement with classes Book and Member. The Book
+        class should have attributes like title, author, and ISBN, while the Member class should
+        store member details. Use this package to create a simple library system.
+    2.​ Create a package Ecommerce containing classes Product, Customer, and Order.
+        Implement methods for placing an order, displaying product details, and calculating total
+        order cost. Use this package in another program.
+    3.​ Create a package named MathOperations that contains classes for mathematical
+        functions like floor, round, and ceil. Implement a program that uses these functions to
+        perform operations on different numbers. (The Math class in Java contains the methods
+        floor(), ceil(), and round())
