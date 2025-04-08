@@ -62,3 +62,30 @@ EXPERIMENT NO 5:
         functions like floor, round, and ceil. Implement a program that uses these functions to
         perform operations on different numbers. (The Math class in Java contains the methods
         floor(), ceil(), and round())
+
+EXPERIMENT NO 6:
+    1.​ Problem Statement: Develop a BankAccount class that implements core banking
+    operations:
+    ○​ balanceEnquiry(): Displays the current account balance.
+    ○​ withdraw(): Deducts the specified amount from the account balance.
+    ○​ deposit(): Adds the specified amount to the account balance.
+    Implement user-defined exceptions:
+    a.​ LowBalanceException: Thrown when a withdrawal amount exceeds the available
+    balance.
+    b.​ NegativeNumberException: Thrown when attempting to deposit or withdraw a
+    negative amount.
+    Develop a Java application program that demonstrates these functionalities and properly
+    handles these exceptions using try-catch blocks.
+
+    2.​ Write a Java program with a method that takes an integer as input. If the number is odd,
+    the method should throw a custom exception (OddNumberException). Handle this
+    exception in the main program.
+
+    3.​ Create a package ExceptionHandlingDemo containing classes Calculator and
+        DivisionException.
+        ○​ The Calculator class should have a method divide(int a, int b) that performs
+        division.
+        ○​ If b is zero, throw a custom exception DivisionException with an appropriate error
+        message.
+        ○​ Handle the exception in the main program and display an error message instead of
+        crashing.
