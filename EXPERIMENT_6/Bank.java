@@ -27,7 +27,7 @@ class BankAccount{
    void balanceEnquiry(){
         System.out.println("Your Account Balance is: " + balance);
    }
-   
+
    void withdraw(double withdraw_amount) throws LowBalanceException,NegativeNumberException{
        if(balance < withdraw_amount)
            throw new LowBalanceException("Withdrw Fail Please Check Your Account Balance.");
@@ -42,11 +42,13 @@ class BankAccount{
    void deposit(double deposit_amount) throws NegativeNumberException{
         if(deposit_amount < 0)
             throw new NegativeNumberException("Do not Enter Negative Number");
-        else
+        else{
             balance += deposit_amount;
 
-        System.out.println("Deposit Successful");
-        balanceEnquiry();
+            System.out.println("Deposit Successful");
+            balanceEnquiry();
+        }
+          
    }
    void display(){
        System.out.println("-----Account Info-------");
@@ -103,6 +105,10 @@ public class Bank{
                 scanner.close();
                 System.out.println("PROGRAMME TERMINATED SUCCESSFULLY");
                 System.exit(0);
+
+            default:
+                System.out.println("Please Enter Valid Operation Number");
+                break;
         
         }
        }
