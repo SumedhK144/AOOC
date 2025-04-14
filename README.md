@@ -2,4 +2,4 @@
 For collage purpose
 
 
-Check aboutme.txt 
+Check aboutRepo.txt 
