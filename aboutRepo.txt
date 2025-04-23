@@ -99,3 +99,30 @@ EXPERIMENT NO 6:
         message.
         ○​ Handle the exception in the main program and display an error message instead of
         crashing.
+
+EXPERIMENT NO: 7
+        1.​ Write a Java program that reads data from a sample.txt file located outside the
+        program’s directory.
+        
+        2.​ Develop a Java program that performs the following operations:
+        ○​ Accept student information such as name, age, weight, height, city, and phone
+        number from the user.
+        ○​ Store this information in a file using DataOutputStream along with
+        FileOutputStream.
+        ○​ Retrieve and display the data using DataInputStream along with
+        FileInputStream.
+        
+        3.​ Write a Java program to read a text file and compute the following:
+        ○​ The total number of vowels in the file.
+        ○​ The total number of words in the file.
+        ○​ The number of times the character 'a' appears in the file.
+        
+        4.​ Write a program that takes a file name as input through the command line.
+        ●​ If the file exists, open it and display its contents.
+        ●​ After displaying the contents, ask the user: “Do you want to add data to the end of
+        the file?”
+        ●​ If the user's response is "Yes", accept data from the user and append it to the file.
+        ●​ If the file does not exist, create a new file and allow the user to input data to store
+        in it.
+        ●​ The user should type “exit” on a new line to stop entering data. Implement this
+        program using character stream classes.
