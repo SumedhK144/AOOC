@@ -126,3 +126,8 @@ EXPERIMENT NO: 7
         in it.
         ●​ The user should type “exit” on a new line to stop entering data. Implement this
         program using character stream classes.
+
+EXPERIMENT NO 8:
+    1.Implement GUI: counter no COUNT UP COUNT DOWN AND RESET BUTTON
+    2.​ Write a GUI program to find the reverse of a given number using Swing (with IDE).
+    3.​ Write a GUI program to demonstrate the use of radio buttons (e.g., gender selection).
