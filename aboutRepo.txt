@@ -131,3 +131,24 @@ EXPERIMENT NO 8:
     1.Implement GUI: counter no COUNT UP COUNT DOWN AND RESET BUTTON
     2.​ Write a GUI program to find the reverse of a given number using Swing (with IDE).
     3.​ Write a GUI program to demonstrate the use of radio buttons (e.g., gender selection).
+
+
+EXPERIMENT NO 9:
+    1.​ Design a standard calculator using Swing components that supports basic operations
+    (Addition, Subtraction, Multiplication, and Division). Implement this with Intellij IDEA
+    Implementation Guidelines:
+    ○​ Use JTextField to display input/output.
+    ○​ Use JButton for digits (0-9) and operations ( +, -, *, /, =, %, square, square-root,
+    cube, C, etc. ).
+    ○​ Implement event handling for button clicks.
+    ○​ Display results in the text field.
+
+EXPERIMENT NO 10:
+    1.​ GUI Program to display the current mouse coordinates on the window.
+    2.​ GUI Program to implement a simple Timer (using background events). Include a Start and
+    Stop button to control the timer.
+    3.​ Create a GUI with a JComboBox containing image names. On selection, display the
+    corresponding image using a JLabel and ItemListener.
+    4.​ GUI with a JTextArea and a label. As the user types, show the character count and word
+    count in real-time using a KeyListener.
+    5.​ Write Java GUI Program using Swing to change background on selecting color.
