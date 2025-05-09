@@ -152,3 +152,19 @@ EXPERIMENT NO 10:
     4.​ GUI with a JTextArea and a label. As the user types, show the character count and word
     count in real-time using a KeyListener.
     5.​ Write Java GUI Program using Swing to change background on selecting color.
+
+EXPERIMENT NO 11:
+    Give Examples of Layouts: BorderLayout, FlowLayout, GridLayout, factorial using applet.
+
+EXPERIMENT NO 12:
+    1.​ Write a program that bounces a blue ball inside a JPanel. The ball should begin moving
+    with a mousePressed event. When the ball hits the edge of the JPanel, it should bounce off
+    the edge and continue in the opposite direction. The ball should be updated using a
+    Runnable.
+    2.​ Create an application of Stopwatch using the concept of Multithreading.
+
+    
+EXPERIMENT NO 14:
+    1.​ Implement chatting application using java socket programming
+    2.​ Develop a TCP client-server application where the client sends two numbers to the server,
+    and the server returns their sum.
